@@ -1,11 +1,6 @@
 # Lab: Exploring Directories in UNIX
 
-In this lab, we will be using the POSIX interface to explore the directory structure of a UNIX machine.
-
-
-## What's Given
-
-Let's see how `man` pages can help us figure out what the provided code is doing.
+In this lab, we will be using the POSIX interface to explore the directory structure of a UNIX machine. Let's see how `man` pages can help us figure out what the provided code is doing.
 
 `DIR` is simply a type that represents a directory stream. 
 
@@ -95,7 +90,7 @@ DESCRIPTION:
 
 
 
-Notice that all of this information needed to understand the provided code was obtained by simply consulting the `man` pages. You are more than welcome to use online resources, but you are encouraged to consult the `man` pages first. In future labs, you will be responsible for visiting the pages.
+Notice that all of this information needed to understand the provided code was obtained by simply consulting the `man` pages. You are more than welcome to use online resources, but you are encouraged to consult the `man` pages first. In future labs, you will be responsible for visiting the `man` pages.
 ## Your Task
 
 Your task is to modify the provided code so that it prints the relative path names of all the regular files within the directory specified by `argv[1]`. You might find it useful to revisit your data-structure notes, namely, [<i>queues</i>](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) and [<i>breadth-first search</i>](https://en.wikipedia.org/wiki/Breadth-first_search).
